@@ -233,3 +233,11 @@ button:hover, #nav a:hover, #nav a:active, .actions a:hover, .actions a:active {
 	font-style: italic;
 	font-weight: bold;
 }
+
+form#generator > div.actions {
+	background-color: #FF0000;
+	position: fixed;
+	top: 0px;
+	right: 30px;
+	padding: 230px 10px 10px;
+}

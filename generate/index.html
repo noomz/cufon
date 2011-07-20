@@ -45,7 +45,7 @@
 				<div id="nav">
 
 					<ul class="nav">
-						<li><a href="http://cufon.shoqolate.com/js/cufon-yui.js">Download <span class="version">${Version}</span></a></li>
+						<li><a href="http://cufon.local/js/cufon-thai.packed.js">Download <span class="version">${Version}</span></a></li>
 						<li class="current"><a href=".">Generator</a></li>
 						<li><a href="http://github.com/sorccu/cufon/wikis" class="external">Documentation</a></li>
 						<li><a href="http://groups.google.com/group/cufon" class="external">Community</a></li>
@@ -85,7 +85,7 @@
 							</dl>
 
 							<dl>
-								<dt><label for="ipermission" class="important"><input type="checkbox" name="permission" id="ipermission" value="yes" /> The EULAs of these fonts allow Web Embedding (without <a href="http://www.adobe.com/products/flashplayer/" class="external">Adobe Flash</a>)</label></dt>
+								<dt><label for="ipermission" class="important"><input type="checkbox" name="permission" id="ipermission" value="yes" checked="checked" /> The EULAs of these fonts allow Web Embedding (without <a href="http://www.adobe.com/products/flashplayer/" class="external">Adobe Flash</a>)</label></dt>
 								<dd>
 									<p class="info">See <a href="http://www.fontembedding.com/fonts-and-the-law/" class="external">Fonts and the Law</a> at <a href="http://www.fontembedding.com" class="external">fontembedding.com</a> for more information.
 									Fonts produced by the following foundries/vendors/creators are <em>known to be safe</em>:
@@ -109,7 +109,7 @@
 							<dl>
 								<dt><label for="iglyphs_bl"><input type="checkbox" name="glyphs[]" id="iglyphs_bl" value="0x20-0x7E" checked="checked" /> Basic Latin</label></dt>
 								<dd>Usually enough for English-only websites. Contains Basic Latin glyphs within the Unicode range U+0020 to U+007E. (95 glyphs)</dd>
-								<dt><label for="iglyphs_l1s"><input type="checkbox" name="glyphs[]" id="iglyphs_l1s" value="0xA0-0xFF,0x20AC" /> Latin-1 Supplement</label></dt>
+								<dt><label for="iglyphs_l1s"><input type="checkbox" name="glyphs[]" id="iglyphs_l1s" value="0xA0-0xFF,0x20AC" checked="checked" /> Latin-1 Supplement</label></dt>
 								<dd>Combine with Basic Latin to cover most European languages. Contains Latin glyphs within the Unicode range U+00A0 to U+00FF and the euro sign U+20AC. Includes punctuation, some currency symbols, numerals and common accented characters. (97 glyphs)</dd>
 								<dt><label for="iglyphs_wp"><input type="checkbox" name="glyphs[]" id="iglyphs_wp" value="0xD7,0x2013,0x2014,0x2018,0x2019,0x201C,0x201D,0x2022,0x2026,0x2032,0x2033,0x2122" /> Advanced Punctuation</label></dt>
 								<dd>Some publishing platforms (such as <a href="http://codex.wordpress.org/User:Here/Texturize" class="external">WordPress</a>) turn regular quotes and dashes into better looking ones, in which case you'll also need these glyphs. Includes a subset of <a href="http://en.wikipedia.org/wiki/Template:Unicode_chart_General_Punctuation" class="external">Unicode General Punctuation</a>. Some fonts may not support all of these characters. (13 glyphs)</dd>
@@ -121,6 +121,8 @@
 								<dd>The whole Greek and Coptic Unicode block. For more information, see <a href="http://en.wikipedia.org/wiki/Greek_alphabet#Greek_in_Unicode" class="external">Greek in Unicode</a>. (up to 144 glyphs)</dd>
 								<dt><label for="iglyphs_pdia"><input type="checkbox" name="glyphs[]" id="iglyphs_pdia" value="0xC0-0xC3,0xC7,0xC9,0xCA,0xCD,0xD3-0xD5,0xDA,0xDC,0xE0-0xE3,0xE7,0xE9,0xEA,0xED,0xF3-0xF5,0xFA,0xFC" /> Portuguese Diacritics</label></dt>
 								<dd>Commonly used characters with diacritics. Combine with Basic Latin. For details, see <a href="http://en.wikipedia.org/wiki/Portuguese_alphabet" class="external">Portuguese alphabet</a>. (26 glyphs)</dd>
+								<dt><label for="iglyphs_th"><input type="checkbox" name="glyphs[]" id="iglyphs_th" value="0xE00-0xE7F,0xF700-0xF882" checked="checked" /> Thai Glyphs</label></dt>
+								<dd>Commonly used characters for Thai language. Contains Thai glyphs within the Unicode range U+0E00 to U+0E7F and Private unicode use U+F700 to U+F882. For detail see <a href="http://en.wikipedia.org/wiki/Thai_script" class="external">Thai alphabet</a>. (515 glyphs)</dd>
 							</dl>
 
 							<a href="#extra-glyphs" id="more-extra-glyphs" class="more">Show all options</a>
@@ -218,7 +220,7 @@
 							get a satisfactory answer you may not complain about it. Nice people are more likely to
 							get helpful answers.</p>
 
-							<p><label for="iterms" class="important"><input type="checkbox" name="terms" id="iterms" value="yes" /> I acknowledge and accept these terms</label></p>
+							<p><label for="iterms" class="important"><input type="checkbox" name="terms" id="iterms" value="yes" checked="checked" /> I acknowledge and accept these terms</label></p>
 
 						</div>
 
